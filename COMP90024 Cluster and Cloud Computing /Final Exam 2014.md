@@ -1,4 +1,4 @@
-#  Final Exam 2013
+#  Final Exam 2014
 
 ## Question 1
 
@@ -19,7 +19,7 @@ You should also include the "research" and research computing part too in the qu
 
 B)
 
-?
+Uniform interface, abstraction, standard contract etc etc avoid all Clouds building their own bespoke solutions
 
 C)
 
