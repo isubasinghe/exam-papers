@@ -4,7 +4,7 @@
 
 A.) In the context of distributed databases, explain the concepts of:
 
-Consistency [1] Availability [1]  
+Consistency [1] Availability [1]
 B.) Give an example of a database technology that supports Availability in the
 presence of a (network) partition. [1]
 
@@ -237,7 +237,7 @@ list all of the database is psql -U postgres -c “\l”. The name of the contai
 is postgres and it exposes the port 5432 to the host. Is the following command
 correct? If not, please correct it:
 
-`docker exec -p 5432 --name postgres sh -c psql -U postgres -c “\l”` [3]  
+`docker exec -p 5432 --name postgres sh -c psql -U postgres -c “\l”` [3]
 C) The following Docker compose file starts two Docker containers that are used
 to run a WordPress website. What are the equivalent Docker commands that could
 be used to start these two containers individually? [4]
