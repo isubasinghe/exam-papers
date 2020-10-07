@@ -38,6 +38,7 @@ F(s, s') = \gamma \Phi(s') - \Phi(s)
 $$
 
 For Grid world, potential function:
+
 $$
 \Phi(s) = \frac{1}{|x(g) - x(s)| + |y(g) + y(s)|}
 $$
@@ -45,6 +46,7 @@ $$
 ## N-step TD
 
 If $\tau + n < T$:
+
 $$
 G_{\tau}^{n} = \sum_{i = \tau + 1}^{min(\tau + n, T)}\gamma ^{i - \tau - 1}r_{i}
 \\
@@ -52,5 +54,3 @@ G_{\tau}^{n} = \sum_{i = \tau + 1}^{min(\tau + n, T)}\gamma ^{i - \tau - 1}r_{i}
 \\
 Q(S_{\Tau}, A_{\tau}) = Q(S_{\tau}, A_{\tau}) + \alpha [G_{\tau}^{n} - Q(S_{\Tau}, A_{\tau})]
 $$
-
-
